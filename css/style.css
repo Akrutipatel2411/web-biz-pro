@@ -8,6 +8,9 @@ body,html
 {
   box-sizing: border-box;   
 }
+p{
+    line-height: 26px;
+}
 ul,li
 {
     margin: 0;
@@ -17,7 +20,16 @@ h1,h2,h3,h4,h5,h6
 {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+
+    
+}
+body
+{
+   font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6f6f6f;
+    line-height: 1.42857143;
     
 }
 .container
@@ -30,13 +42,13 @@ h1,h2,h3,h4,h5,h6
 .main-page
 {
     width: 100%;
-    height: 850px;
+    height: 800px;
     background-image: url(../images/slide-1.jpg);
     background-size: cover;
     background-position: center center;
     opacity: 1;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     z-index: 0;
     
 }
@@ -106,8 +118,7 @@ h1,h2,h3,h4,h5,h6
 .nav-name
 {
     color: white;
-    font-size: 14px;
-    font-family: 'raleway',sans-serif;
+    
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
@@ -136,7 +147,7 @@ h1,h2,h3,h4,h5,h6
 .head-hello
 {
     font-size: 48px;
-    font-family: 'raleway',sans-serif;
+   
     font-weight: 700;
     text-transform: uppercase;
    line-height: 1.6;
@@ -147,7 +158,7 @@ h1,h2,h3,h4,h5,h6
 {
     font-size: 18px;
     font-weight: 500;
-    font-family: 'raleway',sans-serif;
+    
     line-height: 1.1;
     color: white;
     text-transform: uppercase;
@@ -160,16 +171,209 @@ h1,h2,h3,h4,h5,h6
     line-height: 50px;
     text-align: center;
     border: 1px solid #d73e4d;
-/*    padding: 10px 15px; */
     display: inline-block;
     text-decoration: none;
-    font-family: 'raleway',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    
     margin-bottom: 10px;
     color: white;
     text-transform: uppercase;
 }
+.about-sec
+{
+    width: 100%;
+    background-color: white;
+    padding-top: 100px;
+    
+}
+.our-about
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-h2
+{
+    color: #292929;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    margin-bottom: 15px;
+
+    
+}
+.line
+{
+    text-align: center;
+    width: 25px;
+    height: 3px;
+    background-color: #d73e4d;
+    margin-top: 10px;
+    margin-left: -12px;
+    left: 50%;
+    position: absolute;
+    
+}
+.about-pera
+{
+   
+    font-size: 16px;
+    line-height: 26px;
+    margin: 50px auto 0px;
+    color: #6f6f6f;
+    
+/*    text-align: center;*/
+}
+.common-cont
+{
+    width: 100%;
+    overflow: auto;
+    
+    
+}
+.about-det
+{
+    width: 25%;
+    padding: 0px 15px;
+    float: left;
+}
+.about-deta
+{
+    width: 90%;
+    margin: auto;
+/*    text-align: center;*/
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+.about-logo
+{
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border: 2px solid #d73e4d;
+    border-radius: 50%;
+    font-size: 36px;
+    color: #292929;
+    margin: auto;
+}
+.web-about
+{
+    
+    text-transform: uppercase;
+/*    text-align: center;*/
+    font-size: 22px;
+   
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+}
+.dev-abt
+{
+
+    text-decoration: none;
+    color: #292929;
+    
+    
+}
+.about-sec .about-det
+{
+    text-align: center;
+}
+.more-abt
+{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #d73e4d;
+    width: 130px;
+    line-height: 45px;
+    margin-top: 22px;
+    color: #292929;
+}
+.service-sec
+{
+    width: 100%;
+    padding-top: 100px;
+    background-color: #232a34;
+    padding-bottom: 80px;
+    position: relative;
+    
+}
+/*
+.service
+{
+    position: absolute;
+}
+*/
+.ser
+{
+    color: white;
+     font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    margin-bottom: 15px;
+    
+}
+.ser-pera
+{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 50px auto 0px;
+    color: white;
+}
+.ser-data
+{
+    width: 33.33%;
+    padding: 25px 15px 0px;
+    
+    float: left;
+    
+    
+}
+.ser-inner
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 110px 23px 65px;
+    border: 1px solid #808489;
+    
+}
+.ser-logo-hide
+{
+/*    position: absolute;*/
+    left: 0;
+    right: 0;
+/*    top: 50%;*/
+    width: 100%;
+    
+}
+.ser-logo
+{
+    font-size: 48px;
+    color: #808489;
+    width: 80px;
+    margin: 0 auto;
+    background-color: #232a34;
+}
+.web-ser
+{
+    font-size: 18px;
+
+}
+.web-de
+{
+    color: #808489;
+    text-transform: capitalize;
+    margin-top: 33px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
 
 
 
