@@ -20,6 +20,8 @@ h1,h2,h3,h4,h5,h6
 {
     margin: 0;
     padding: 0;
+    text-transform:uppercase;
+    font-weight:700;
 
     
 }
@@ -228,6 +230,7 @@ body
 {
     width: 100%;
     overflow: auto;
+    margin-top: 50px;
     
     
 }
@@ -345,8 +348,10 @@ body
 .ser-logo-hide
 {
 /*    position: absolute;*/
+/*
     left: 0;
     right: 0;
+*/
 /*    top: 50%;*/
     width: 100%;
     
@@ -371,6 +376,119 @@ body
     margin-top: 33px;
     display: inline-block;
     text-decoration: none;
+}
+.pro-list
+{
+    text-align: center;
+    margin: 34px 0px 40px 0px;
+    list-style: none;
+    
+}
+.pro-list-items
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 10px 0px;
+    padding: 0px 8px;
+}
+.list-one
+{
+    border-bottom: 1px solid #d73e4d;
+}
+.pro-anchor
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #292929;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pic-pro
+{
+    width: 33.33%;
+    padding: 0px 15px;
+    margin-bottom: 32px;
+    float: left;
+}
+.pic
+{
+    width: 100%;
+}
+.cre-section
+{
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 70px;
+    width: 100%;
+}
+.cre-work
+{
+    text-align: center;
+    padding: 134px 0px 137px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+.cre-section .cre-work h3
+{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+.cre-clr
+{
+    color: #d73e4d;
+}
+.cre-together
+{
+    width: 200px;
+    line-height: 45px;
+    color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #d73e4d;
+}
+.team-member
+{
+    width: 33.33%;
+    float: left;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+    
+}
+.team-pic-mem
+{
+    background-color: #e6e6e6;
+}
+.team-pic
+{
+    width: 100%;
+    overflow: hidden;
+}
+.name-member
+{
+    
+    text-align: center;
+    
+}
+.name-txt
+{
+    color: #696f78;
+/*    text-transform: capitalize;*/
+    font-size: 18px;
+    padding-top: 12px;
+    line-height: 1.1;
+    
+}
+.name-web
+{
+    color: #373a3f;
+    margin: 5px 0 8px;
+    
 }
 
 
