@@ -500,18 +500,21 @@ body
 {
     width: 100%;
     overflow: auto;
+    
 }
 .skill-pic
 {
     width: 50%;
     float: left;
     padding: 0px 15px;
+     
 }
 .skill-per
 {
-    margin-top: 125px 0px 0px;
+    margin: 125px 0px 0px;
     width: 100%;
     position: relative;
+   
 }
 .ratio-per
 {
@@ -519,6 +522,53 @@ body
     height: 30px;
     width: 100%;
     margin: 0px 0px 38px;
+    position: relative;
+}
+.skill-text
+{
+  position: absolute;
+    top: -29px;
+    left: 0;
+}
+.skill-txt-code
+{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+.color-red
+{
+   height: 100%;
+    background-color: #d73e4d; 
+}
+.per-red
+{
+    width: 89%;
+    
+}
+.per-red2
+{
+    width: 58%;
+}.per-red3
+{
+    width: 49%;
+}.per-red4
+{
+    width: 76%;
+}.per-red5
+{
+    width: 64%;
+}
+
+.per-txt
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 90%;
 }
 
 
