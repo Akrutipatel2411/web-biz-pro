@@ -1,50 +1,57 @@
-body,html
-{
-   width: 100%;
+body,
+html {
+    width: 100%;
     height: 100%;
     margin: 0;
 }
-*
-{
-  box-sizing: border-box;   
+
+* {
+    box-sizing: border-box;
 }
-p{
+
+p {
     line-height: 26px;
 }
-ul,li
-{
+
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-h1,h2,h3,h4,h5,h6
-{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
-    text-transform:uppercase;
-    font-weight:700;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #292929;
 
-    
+
 }
-body
-{
-   font-family: 'Raleway', sans-serif;
+
+body {
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #6f6f6f;
     line-height: 1.42857143;
-    
+
 }
-.container
-{
+
+.container {
     width: 90%;
     padding: 0px 15px;
     margin: 0 auto;
-    
+
 }
-.main-page
-{
+
+.main-page {
     width: 100%;
     height: 800px;
     background-image: url(../images/slide-1.jpg);
@@ -54,75 +61,75 @@ body
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    
+
 }
-.navigation
-{
+
+.navigation {
     width: 100%;
     height: 70px;
     position: absolute;
     z-index: 999;
-/*
+    /*
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 */
-/*    overflow: auto;*/
-    
+    /*    overflow: auto;*/
+
 }
-.nav-cont
-{
+
+.nav-cont {
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
-.nav-logo
-{
+
+.nav-logo {
     float: left;
     padding: 0px 20px;
     width: 20%;
     margin-top: 15px;
 
-   
+
 }
-.logo-main
-{
+
+.logo-main {
     display: inline-block;
     text-decoration: none;
-     text-align: right;
+    text-align: right;
 }
-.nav-menu
-{
+
+.nav-menu {
     float: right;
     width: 80%;
     margin-top: 15px;
-/*    padding-left: 15px;*/
+    /*    padding-left: 15px;*/
     padding-top: 10px;
     text-align: center;
-/*    padding: 15px;*/
+    /*    padding: 15px;*/
 }
-.nav-list
-{
+
+.nav-list {
     list-style: none;
-/*    padding: 10px;*/
+    /*    padding: 10px;*/
 }
-.nav-list-items
-{
+
+.nav-list-items {
     display: inline-block;
     text-align: center;
 
 }
+
 /*
 .nav-list>li
 {
     float: left;
 }
 */
-.nav-name
-{
+.nav-name {
     color: white;
-    
+
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
@@ -131,83 +138,83 @@ body
     line-height: 20px;
     text-align: center;
 }
-.nav-name.nav-clr
-{
+
+.nav-name.nav-clr {
     color: #d73e4d;
 }
-.header-txt
-{
+
+.header-txt {
     position: absolute;
     top: 45%;
     left: 0;
     right: 0;
     width: 60%;
     margin: auto;
-/*    background-color: crimson;*/
+    /*    background-color: crimson;*/
     text-align: center;
     padding: 20px;
-    
+
 }
-.head-hello
-{
+
+.head-hello {
     font-size: 48px;
-   
+
     font-weight: 700;
     text-transform: uppercase;
-   line-height: 1.6;
+    line-height: 1.6;
     color: white;
     margin-bottom: 7px;
 }
-.head-size
-{
+
+.head-size {
     font-size: 18px;
     font-weight: 500;
-    
+
     line-height: 1.1;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-.head-see
-{
+
+.head-see {
     width: 170px;
     line-height: 50px;
     text-align: center;
     border: 1px solid #d73e4d;
     display: inline-block;
     text-decoration: none;
-    
+
     margin-bottom: 10px;
     color: white;
     text-transform: uppercase;
 }
-.about-sec
-{
+
+.about-sec {
     width: 100%;
     background-color: white;
     padding-top: 100px;
-    
+
 }
-.our-about
-{
+
+.our-about {
     width: 70%;
     margin: 0 auto;
     text-align: center;
 }
-.about-h2
-{
+
+.about-h2 {
     color: #292929;
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 700;
-    
+
     margin-bottom: 15px;
 
-    
+
 }
-.line
-{
+
+.line {
     text-align: center;
     width: 25px;
     height: 3px;
@@ -216,43 +223,43 @@ body
     margin-left: -12px;
     left: 50%;
     position: absolute;
-    
+
 }
-.about-pera
-{
-   
+
+.about-pera {
+
     font-size: 16px;
     line-height: 26px;
     margin: 50px auto 0px;
     color: #6f6f6f;
-    
-/*    text-align: center;*/
+
+    /*    text-align: center;*/
 }
-.common-cont
-{
+
+.common-cont {
     width: 100%;
     overflow: auto;
     margin-top: 50px;
-    
-    
+
+
 }
-.about-det
-{
+
+.about-det {
     width: 25%;
     padding: 0px 15px;
     float: left;
 }
-.about-deta
-{
+
+.about-deta {
     width: 90%;
     margin: auto;
-/*    text-align: center;*/
+    /*    text-align: center;*/
     margin-top: 50px;
     margin-bottom: 100px;
-    
+
 }
-.about-logo
-{
+
+.about-logo {
     width: 130px;
     height: 130px;
     line-height: 130px;
@@ -262,32 +269,32 @@ body
     color: #292929;
     margin: auto;
 }
-.web-about
-{
-    
+
+.web-about {
+
     text-transform: uppercase;
-/*    text-align: center;*/
+    /*    text-align: center;*/
     font-size: 22px;
-   
+
     font-weight: 700;
     margin-top: 35px;
     margin-bottom: 20px;
-    
+
 }
-.dev-abt
-{
+
+.dev-abt {
 
     text-decoration: none;
     color: #292929;
-    
-    
+
+
 }
-.about-sec .about-det
-{
+
+.about-sec .about-det {
     text-align: center;
 }
-.more-abt
-{
+
+.more-abt {
     text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -297,128 +304,128 @@ body
     margin-top: 22px;
     color: #292929;
 }
-.service-sec
-{
+
+.service-sec {
     width: 100%;
     padding-top: 100px;
     background-color: #232a34;
     padding-bottom: 80px;
     position: relative;
-    
+
 }
+
 /*
 .service
 {
     position: absolute;
 }
 */
-.ser
-{
+.ser {
     color: white;
-     font-size: 36px;
+    font-size: 36px;
     text-transform: uppercase;
     font-weight: 700;
-    
+
     margin-bottom: 15px;
-    
+
 }
-.ser-pera
-{
+
+.ser-pera {
     font-size: 16px;
     line-height: 26px;
     margin: 50px auto 0px;
     color: white;
 }
-.ser-data
-{
+
+.ser-data {
     width: 33.33%;
     padding: 25px 15px 0px;
-    
+
     float: left;
-    
-    
+
+
 }
-.ser-inner
-{
+
+.ser-inner {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
     padding: 110px 23px 65px;
     border: 1px solid #808489;
-    
+
 }
-.ser-logo-hide
-{
-/*    position: absolute;*/
-/*
+
+.ser-logo-hide {
+    /*    position: absolute;*/
+    /*
     left: 0;
     right: 0;
 */
-/*    top: 50%;*/
+    /*    top: 50%;*/
     width: 100%;
-    
+
 }
-.ser-logo
-{
+
+.ser-logo {
     font-size: 48px;
     color: #808489;
     width: 80px;
     margin: 0 auto;
     background-color: #232a34;
 }
-.web-ser
-{
+
+.web-ser {
     font-size: 18px;
 
 }
-.web-de
-{
+
+.web-de {
     color: #808489;
     text-transform: capitalize;
     margin-top: 33px;
     display: inline-block;
     text-decoration: none;
 }
-.pro-list
-{
+
+.pro-list {
     text-align: center;
     margin: 34px 0px 40px 0px;
     list-style: none;
-    
+
 }
-.pro-list-items
-{
+
+.pro-list-items {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
     margin: 15px 10px 0px;
     padding: 0px 8px;
 }
-.list-one
-{
+
+.list-one {
     border-bottom: 1px solid #d73e4d;
 }
-.pro-anchor
-{
+
+.pro-anchor {
     display: inline-block;
     text-decoration: none;
     color: #292929;
     text-align: center;
     padding-bottom: 10px;
 }
-.pic-pro
-{
+
+.pic-pro {
     width: 33.33%;
     padding: 0px 15px;
     margin-bottom: 32px;
     float: left;
 }
-.pic
-{
+
+.pic {
     width: 100%;
 }
-.cre-section
-{
+
+.cre-section {
     background-image: url(../images/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -426,146 +433,148 @@ body
     margin-top: 70px;
     width: 100%;
 }
-.cre-work
-{
+
+.cre-work {
     text-align: center;
     padding: 134px 0px 137px;
     background-color: rgba(0, 0, 0, 0.8);
-    
+
 }
-.cre-section .cre-work h3
-{
+
+.cre-section .cre-work h3 {
     color: white;
     margin-bottom: 25px;
     font-size: 28px;
 }
-.cre-clr
-{
+
+.cre-clr {
     color: #d73e4d;
 }
-.cre-together
-{
+
+.cre-together {
     width: 200px;
     line-height: 45px;
-    color:white;
+    color: white;
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
     border: 1px solid #d73e4d;
 }
-.team-member
-{
+
+.team-member {
     width: 33.33%;
     float: left;
     padding: 0px 15px;
     margin-bottom: 30px;
-    
+
 }
-.team-pic-mem
-{
+
+.team-pic-mem {
     background-color: #e6e6e6;
 }
-.team-pic
-{
+
+.team-pic {
     width: 100%;
     overflow: hidden;
 }
-.name-member
-{
-    
+
+.name-member {
+
     text-align: center;
-    
+
 }
-.name-txt
-{
+
+.name-txt {
     color: #696f78;
-/*    text-transform: capitalize;*/
+    /*    text-transform: capitalize;*/
     font-size: 18px;
     padding-top: 12px;
     line-height: 1.1;
-    
+
 }
-.name-web
-{
+
+.name-web {
     color: #373a3f;
     margin: 5px 0 8px;
-    
+
 }
-.skill-section
-{
+
+.skill-section {
     width: 100%;
     background-color: #232a34;
     margin-top: 70px;
 }
-.skill-cont
-{
+
+.skill-cont {
     width: 100%;
     overflow: auto;
-/*    clear: both;*/
-    
+    /*    clear: both;*/
+
 }
-.skill-pic
-{
+
+.skill-pic {
     width: 50%;
     float: left;
     padding: 0px 15px;
-     
+
 }
-.skill-per
-{
+
+.skill-per {
     margin: 125px 0px 0px;
     width: 100%;
     position: relative;
-   
+
 }
-.ratio-per
-{
+
+.ratio-per {
     background-color: white;
     height: 30px;
     width: 100%;
     margin: 0px 0px 38px;
     position: relative;
 }
-.skill-text
-{
-  position: absolute;
+
+.skill-text {
+    position: absolute;
     top: -29px;
     left: 0;
 }
-.skill-txt-code
-{
+
+.skill-txt-code {
     font-weight: 700;
     font-size: 15px;
     color: white;
     margin-bottom: 15px;
 }
-.color-red
-{
-   height: 100%;
-    background-color: #d73e4d; 
+
+.color-red {
+    height: 100%;
+    background-color: #d73e4d;
 }
-.per-red
-{
+
+.per-red {
     width: 89%;
-    
+
 }
-.per-red2
-{
+
+.per-red2 {
     width: 58%;
-}.per-red3
-{
+}
+
+.per-red3 {
     width: 49%;
-}.per-red4
-{
+}
+
+.per-red4 {
     width: 76%;
-}.per-red5
-{
+}
+
+.per-red5 {
     width: 64%;
 }
 
-.per-txt
-{
+.per-txt {
     font-size: 14px;
     font-weight: 700;
     color: white;
@@ -573,71 +582,72 @@ body
     top: -30px;
     left: 90%;
 }
-.picture-client
-{
+
+.picture-client {
     width: 100%;
     text-align: center;
     margin: 58px 0px 50px;
 }
-.client-info
-{
+
+.client-info {
     width: 1170px;
 }
-.client-pic
-{
-   text-align: center; 
+
+.client-pic {
+    text-align: center;
 }
-.client-info
-{
+
+.client-info {
     font-size: 18px;
     color: #343434;
     line-height: 28px;
     margin: 33px auto 24px;
     width: 87%;
 }
-.client-name
-{
+
+.client-name {
     margin-bottom: 45px;
     text-transform: capitalize;
     font-size: 18px;
 }
-.dot
-{
+
+.dot {
     width: 30%;
     margin: auto;
-    
-    
+
+
 }
-.dot-inner
-{
+
+.dot-inner {
     display: inline-block;
-    
+
 }
-.red
-{
-   width: 13px;
+
+.red {
+    width: 13px;
     height: 13px;
     background-color: #d73e4d;
     border: 1px solid #d73e4d;
     margin: 0 5px;
     border-radius: 50%
 }
-.plain
-{
-   width: 13px;
+
+.plain {
+    width: 13px;
     height: 13px;
     background-color: white;
     border: 1px solid #9d9f9f;
     margin: 0 5px;
     border-radius: 50%;
 }
-.price-sec
-{
+
+.price-sec {
     width: 100%;
     background-color: #f3f3f3;
     padding: 100px 0px;
     margin-top: 45px;
 }
+
 /*
 .price-main
 {
@@ -646,37 +656,36 @@ body
     float: left;
 }
 */
-.price-inner
-{
+.price-inner {
     background-color: white;
     text-align: center;
     border: 1px solid #dfdfdf;
     padding: 28px 0px 22px;
 }
-h4
-{
+
+h4 {
     font-size: 24px;
 }
-.price-sec .price-inner p
-{
+
+.price-sec .price-inner p {
     margin: 4px 0px 20px;
-        line-height: 26px
+    line-height: 26px
 }
-.color-2
-{
-      background-color: #375099;
+
+.color-2 {
+    background-color: #375099;
 }
-.color-1
-{
+
+.color-1 {
     background-color: #d6973d;
 }
-.color-3
-{
+
+.color-3 {
     background-color: #179680;
 }
-.price-sec .price-inner strong
-{
-    
+
+.price-sec .price-inner strong {
+
     font-weight: 700;
     font-size: 24px;
     color: #fff;
@@ -684,21 +693,21 @@ h4
     padding: 23px 0;
     margin-bottom: 30px;
 }
-.price-sec .price-inner strong span
-{
+
+.price-sec .price-inner strong span {
     font-size: 14px;
 }
-.clr-one
-{
+
+.clr-one {
     background-color: #f7f8f4;
-/*        line-height: 45px;*/
+    /*        line-height: 45px;*/
 }
-.price-sec .price-inner ul li
-{
-   line-height: 45px; 
+
+.price-sec .price-inner ul li {
+    line-height: 45px;
 }
-.buy-client
-{
+
+.buy-client {
     width: 150px;
     color: white;
     line-height: 48px;
@@ -706,58 +715,120 @@ h4
     text-transform: uppercase;
     margin-top: 22px;
     background-color: #d73e4d;
-    border: 1px solid  #d73e4d;
+    border: 1px solid #d73e4d;
     display: inline-block;
     text-decoration: none;
 }
-.blog-data
-{
+
+.blog-data {
     margin-top: 55px;
     width: 100%;
 }
-.blog-text
-{
+
+.blog-text {
     width: 100%;
 }
-h6
-{
+
+h6 {
     font-size: 18px;
 }
-.blog-ref
-{
+
+.blog-ref {
     line-height: 26px;
     display: block;
     text-decoration: none;
     color: #292929;
     margin: 40px 0px 15px;
     text-transform: capitalize;
-    
+
 }
-.about-sec .blog-data .blog-text>a
-{
+
+.about-sec .blog-data .blog-text > a {
     color: #292929;
     font-size: 15px;
     margin-bottom: 18px;
     text-decoration: none;
 }
-.admin
-{
+
+.admin {
     color: #d73e4d;
 }
-.about-sec .blog-data .blog-text p a
-{
+
+.about-sec .blog-data .blog-text p a {
     color: #292929;
     text-decoration: none;
 }
-.partner-sec
-{
+
+.partner-sec {
     margin: 100px 0 0;
     background-color: #f9f9f9;
     padding: 50px;
 }
 
+.part-common {
+    width: 100%;
+    overflow: auto;
+}
 
+.partner-logo {
+    width: 20%;
+    text-align: center;
+    float: left;
 
+}
 
+.part-icon {
+    border: 1px solid #dfdfdf;
+    height: 118px;
+    padding-top: 22px;
+}
+.contact
+{
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+.loc-sec
+{
+    width: 100%;
+    background-color: white;
+}
+.common
+{
+    width: 100%;
+    overflow: auto;
+}
+.loc-head
+{
+    font-size: 36px;
+    margin: 95px 0 35px;
+}
+.loc-pera
+{
+   margin-bottom: 20px; 
+}
+.loc-ul
+{
+    margin-top: 70px;
+}
+.loc-items
+{
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 50px;
+}
+.loc-icon
+{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #d73e4d;
+    position: absolute;
+    left: 0;
+    top: -9px;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+}
 
 
