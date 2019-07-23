@@ -829,6 +829,13 @@ h6 {
     color: white;
     line-height: 60px;
     font-size: 30px;
+    background-color:#d73e4d;
+    border-radius: 50%;
+}
+.icon-h6
+{
+    font-size: 14px;
+    margin-bottom: 8px;
 }
 
 
