@@ -15,6 +15,7 @@ ul,li
 {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -22,6 +23,7 @@ h1,h2,h3,h4,h5,h6
     padding: 0;
     text-transform:uppercase;
     font-weight:700;
+    color: #292929;
 
     
 }
@@ -500,6 +502,7 @@ body
 {
     width: 100%;
     overflow: auto;
+/*    clear: both;*/
     
 }
 .skill-pic
@@ -569,6 +572,188 @@ body
     position: absolute;
     top: -30px;
     left: 90%;
+}
+.picture-client
+{
+    width: 100%;
+    text-align: center;
+    margin: 58px 0px 50px;
+}
+.client-info
+{
+    width: 1170px;
+}
+.client-pic
+{
+   text-align: center; 
+}
+.client-info
+{
+    font-size: 18px;
+    color: #343434;
+    line-height: 28px;
+    margin: 33px auto 24px;
+    width: 87%;
+}
+.client-name
+{
+    margin-bottom: 45px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.dot
+{
+    width: 30%;
+    margin: auto;
+    
+    
+}
+.dot-inner
+{
+    display: inline-block;
+    
+}
+.red
+{
+   width: 13px;
+    height: 13px;
+    background-color: #d73e4d;
+    border: 1px solid #d73e4d;
+    margin: 0 5px;
+    border-radius: 50%
+}
+.plain
+{
+   width: 13px;
+    height: 13px;
+    background-color: white;
+    border: 1px solid #9d9f9f;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.price-sec
+{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 100px 0px;
+    margin-top: 45px;
+}
+/*
+.price-main
+{
+    width: 33.33%;
+    padding: 0px 15px;
+    float: left;
+}
+*/
+.price-inner
+{
+    background-color: white;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 28px 0px 22px;
+}
+h4
+{
+    font-size: 24px;
+}
+.price-sec .price-inner p
+{
+    margin: 4px 0px 20px;
+        line-height: 26px
+}
+.color-2
+{
+      background-color: #375099;
+}
+.color-1
+{
+    background-color: #d6973d;
+}
+.color-3
+{
+    background-color: #179680;
+}
+.price-sec .price-inner strong
+{
+    
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding: 23px 0;
+    margin-bottom: 30px;
+}
+.price-sec .price-inner strong span
+{
+    font-size: 14px;
+}
+.clr-one
+{
+    background-color: #f7f8f4;
+/*        line-height: 45px;*/
+}
+.price-sec .price-inner ul li
+{
+   line-height: 45px; 
+}
+.buy-client
+{
+    width: 150px;
+    color: white;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 22px;
+    background-color: #d73e4d;
+    border: 1px solid  #d73e4d;
+    display: inline-block;
+    text-decoration: none;
+}
+.blog-data
+{
+    margin-top: 55px;
+    width: 100%;
+}
+.blog-text
+{
+    width: 100%;
+}
+h6
+{
+    font-size: 18px;
+}
+.blog-ref
+{
+    line-height: 26px;
+    display: block;
+    text-decoration: none;
+    color: #292929;
+    margin: 40px 0px 15px;
+    text-transform: capitalize;
+    
+}
+.about-sec .blog-data .blog-text>a
+{
+    color: #292929;
+    font-size: 15px;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
+.admin
+{
+    color: #d73e4d;
+}
+.about-sec .blog-data .blog-text p a
+{
+    color: #292929;
+    text-decoration: none;
+}
+.partner-sec
+{
+    margin: 100px 0 0;
+    background-color: #f9f9f9;
+    padding: 50px;
 }
 
 
