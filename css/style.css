@@ -31,6 +31,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
     color: #292929;
+    line-height: 1.1;
 
 
 }
@@ -859,12 +860,19 @@ h6 {
 {
     width: 100%;
     overflow: auto;
+
 }
 .form-main
 {
     width: 33.33%;
     float: left;
-    padding: 0 8px 0 0;
+    padding: 0 10px 0 0;
+}
+.form-main-you
+{
+    width: 33.33%;
+    float: left;
+/*    padding: 0 0px 0 0;*/
 }
 .form-upr
 {
@@ -898,6 +906,92 @@ h6 {
     display: inline-block;
     text-decoration: none;
 }
+.footer-section
+{
+    width: 100%;
+    background-color: #1e1e1e;
+    margin-top: 100px;
+    padding: 60px 0 25px;
+    text-align: center;
+}
+.footer-logo
+{
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer-section ul li
+{
+    display: inline-block;
+    margin-top: 13px;
+}
+.footer-section ul li a
+{
+    width: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    margin: 0 7px;
+    border: 1px solid;
+    text-decoration: none;
+    display: inline-block;
+}
+.foot-soc-icon
+{
+    color: #677fb5;
+    border-color: #677fb5;
+    border-radius: 50%;
+   
+}
+.foot-soc-icon2
+{
+    border-radius: 50%;
+    color: #70c2e9;
+    border-color: #70c2e9;
+}.foot-soc-icon3
+{
+    border-radius: 50%;
+    color: #d8545d;
+    border-color: #d8545d;
+}.foot-soc-icon4
+{
+    border-radius: 50%;
+    color: #007ab9;
+    border-color: #007ab9
+}.foot-soc-icon5
+{
+    border-radius: 50%;
+    color: #5ecbf3;
+    border-color: #5ecbf3;
+}.foot-soc-icon6
+{
+    border-radius: 50%;
+    color: #ff3ba4;
+    border-color: #ff3ba4;
+}.foot-soc-icon7
+{
+    border-radius: 50%;
+    color: #e299c2;
+    border-color: #e299c2;
+}
+.foot-soc-icon8
+{
+    color: #faaa5e;
+    border-color: #faaa5e;
+    border-radius: 50%;
+}
+.footer-section p
+{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.color-foot
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #337ab7;
+}
+
 
 
 
