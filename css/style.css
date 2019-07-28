@@ -198,7 +198,7 @@ h6 {
 .about-sec {
     width: 100%;
     background-color: white;
-    padding-top: 100px;
+    padding: 100px 0px;
 
 }
 
@@ -212,7 +212,7 @@ h6 {
 
     font-size: 36px;
 
-    margin-bottom: 15px;
+    padding: 15px;
 
 
 }
@@ -222,10 +222,7 @@ h6 {
     width: 25px;
     height: 3px;
     background-color: #d73e4d;
-    margin-top: 10px;
-    margin-left: -12px;
-    left: 50%;
-    position: absolute;
+    margin: auto;
 
 }
 
@@ -233,7 +230,7 @@ h6 {
 
     font-size: 16px;
     line-height: 26px;
-    margin: 50px auto 0px;
+    padding: 15px;;
     color: #6f6f6f;
 
         text-align: center;
@@ -242,7 +239,7 @@ h6 {
 .common-cont {
     width: 100%;
     overflow: auto;
-    margin-top: 50px;
+    padding-top: 30px;
 
 
 }
@@ -257,8 +254,7 @@ h6 {
     width: 90%;
     margin: auto;
         text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding: 30px 0px;
 
 }
 
@@ -384,7 +380,7 @@ h6 {
 
 .pro-list {
     text-align: center;
-    margin: 34px 0px 40px 0px;
+    padding: 20px 0px;
 
 
 }
@@ -393,8 +389,8 @@ h6 {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
-    margin: 15px 10px 0px;
-    padding: 0px 8px;
+/*    padding: 15px 10px 0px;*/
+/*    padding: 0px 8px;*/
 }
 
 .list-one {
@@ -406,7 +402,7 @@ h6 {
     text-decoration: none;
     color: #292929;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .pic-pro {
@@ -425,7 +421,7 @@ h6 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-top: 70px;
+    
     width: 100%;
 }
 
@@ -460,8 +456,8 @@ h6 {
 .team-member {
     width: 33.33%;
     float: left;
-    padding: 0px 15px;
-    margin-bottom: 30px;
+    padding: 15px;
+
 
 }
 
@@ -491,14 +487,15 @@ h6 {
 
 .name-web {
     color: #373a3f;
-    margin: 5px 0 8px;
+    margin: 5px 0px;
+    letter-spacing:0.05px;
 
 }
 
 .skill-section {
     width: 100%;
     background-color: #232a34;
-    margin-top: 70px;
+/*    padding: 30px 0px;*/
 }
 
 .skill-cont {
@@ -516,9 +513,9 @@ h6 {
 }
 
 .skill-per {
-    margin: 125px 0px 0px;
+    padding-top: 120px;
     width: 100%;
-    position: relative;
+/*    position: relative;*/
 
 }
 
@@ -540,7 +537,7 @@ h6 {
     font-weight: 700;
     font-size: 15px;
     color: white;
-    margin-bottom: 15px;
+    padding-bottom:  : 15px;
 }
 
 .color-red {
@@ -619,22 +616,25 @@ h6 {
 
 .client-info {
     width: 1170px;
+/*    margin: auto;*/
 }
 
 .client-pic {
     text-align: center;
 }
 
-.client-info {
+.client-info-per {
     font-size: 18px;
     color: #343434;
     line-height: 28px;
-    margin: 33px auto 24px;
+/*    margin: 33px auto 24px;*/
+    padding: 30px;
     width: 87%;
+    margin: auto;
 }
 
 .client-name {
-    margin-bottom: 45px;
+    padding-bottom:  45px;
     text-transform: capitalize;
     font-size: 18px;
 }
@@ -673,7 +673,7 @@ h6 {
     width: 100%;
     background-color: #f3f3f3;
     padding: 100px 0px;
-    margin-top: 45px;
+
 }
 
 /*
@@ -788,7 +788,6 @@ h6 {
 }
 
 .partner-sec {
-    margin: 100px 0 0;
     background-color: #f9f9f9;
     padding: 50px;
 }
