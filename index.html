@@ -562,27 +562,36 @@
                 </div>
             </div>
 
-
+<div class="form-msg">
             <h2 class="send-h2">SEND MESSAGE</h2>
-            <div class="common-form">
-                <div class="form-main">
-                    <div class="form-upr">First Name*</div>
+            <form action="" method="post">
+                <div class="first-row">
+                   <div class="first-part">
+                       <div class="inner-part">
+                           <input type="text" placeholder="First Name*" name="fname">
+                       </div>
+                   </div>
+                   <div class="middle-part">
+                       <div class="inner-part">
+                           <input type="text" placeholder="Last Name*" name="lname">
+                       </div>
+                   </div>
+                   <div class="last-part">
+                       <div class="inner-part">
+                           <input type="text" placeholder="Your Email*" name="mail">
+                       </div>
+                   </div>
+                    
                 </div>
-                <div class="form-main">
-                    <div class="form-upr">Last Name*</div>
+                <div class="inner-part">
+                    <input type="text" placeholder="Subject" name="sub">
                 </div>
-                <div class="form-main-you">
-                    <div class="form-upr">Your Email*</div>
-                </div>
-
-            </div>
-            <div class="form-sub">
-                <div class="form-upr">Subject</div>
-            </div>
-            <div class="form-sub">
-                <div class="form-msg">Write Message</div>
-            </div>
-            <a href="" class="send">send message</a>
+                <textarea name="msg" placeholder="Write Message" id=""></textarea>
+                
+    <button class="send">Send Message</button>
+            </form>
+         </div>     
+            
         </div>
     </section>
     <!--    footer-section-->

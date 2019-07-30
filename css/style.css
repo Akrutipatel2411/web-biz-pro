@@ -841,8 +841,8 @@ h6 {
 .loc-items
 {
     position: relative;
-    padding-left: 85px;
-    margin-bottom: 50px;
+    padding-left: 80px;
+    margin-bottom: 40px;
 }
 .loc-icon
 {
@@ -862,7 +862,8 @@ h6 {
 .icon-h6
 {
     font-size: 14px;
-    margin-bottom: 8px;
+/*    margin-bottom: 8px;*/
+    padding-bottom: 8px;
 }
 .map-main
 {
@@ -877,47 +878,61 @@ h6 {
     left: 0;
 /*    background-color: rgb(229, 227, 223);*/
 }
+.form-msg
+{
+    width: 100%;
+}
 .send-h2
 {
     font-size: 36px;
     margin: 50px 0 40px;
 }
-.common-form
+
+
+.first-row
+{
+   width: 100%;
+    overflow: auto;
+}
+.first-part
+{
+    width: 33.33%;
+/*    padding-right: 15px;*/
+    float: left;
+}
+.middle-part
+{
+    width: 33.33%;
+    padding:0 15px;
+    float: left;
+}
+.last-part
+{
+    width: 33.33%;
+/*    padding-left: 15px;*/
+    float: left;
+}
+.loc-sec .form-msg .inner-part input 
 {
     width: 100%;
-    overflow: auto;
-
+    height: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 0 15px;
 }
-.form-main
-{
-    width: 33.33%;
-    float: left;
-    padding: 0 10px 0 0;
-}
-.form-main-you
-{
-    width: 33.33%;
-    float: left;
-/*    padding: 0 0px 0 0;*/
-}
-.form-upr
+.inner-part
 {
     height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid #dfdfdf;
-    padding: 15px 15px;
+    margin-bottom: 20px
 }
-.form-sub
+.loc-sec .form-msg form textarea
 {
+   border: 1px solid #dfdfdf;
     width: 100%;
-}
-.form-msg
-{
-    margin-bottom: 25px;
-    border: 1px solid #dfdfdf;
-    padding: 20px 15px;
     height: 260px;
+    margin-bottom: 25px;
+    padding: 20px 15px;
 }
+
 .send
 {
     background-color: #d73e4d;
