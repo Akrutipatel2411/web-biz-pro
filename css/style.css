@@ -495,6 +495,7 @@ h6 {
 .skill-section {
     width: 100%;
     background-color: #232a34;
+    position: relative;
 /*    padding: 30px 0px;*/
 }
 
@@ -513,7 +514,7 @@ h6 {
 }
 
 .skill-per {
-    padding-top: 120px;
+    padding-top:  120px;
     width: 100%;
 /*    position: relative;*/
 
@@ -616,7 +617,7 @@ h6 {
 
 .client-info {
     width: 1170px;
-/*    margin: auto;*/
+    margin: auto;
 }
 
 .client-pic {
